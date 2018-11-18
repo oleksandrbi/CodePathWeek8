@@ -25,7 +25,7 @@ Vulnerability #1: SQL Injection Attack
       
   COMMENTS: 
   
-     The Blue site has an SQL injection vulnerability, I noticed that it was on the URL. To test out the vulnerablity I implemented the SLEEP command on the database. I easily just pasted it into the URL and right away the site was taking a much longer time to load up, this is the command I used: ' OR SLEEP(1) -- ' . In addition, the whole process took alot of trial and error before anything worked out for me.   
+The Blue site has an SQL injection vulnerability, I noticed that it was on the URL. To test out the vulnerablity I implemented the SLEEP command on the database. I easily just pasted it into the URL and right away the site was taking a much longer time to load up, this is the command I used: ' OR SLEEP(1) -- ' . In addition, the whole process took alot of trial and error before anything worked out for me.   
      
      
 Vulnerability #2: Session Hijacking Attack
@@ -35,6 +35,8 @@ Vulnerability #2: Session Hijacking Attack
       Link: https://github.com/oleksandrbi/CodePathWeek8/blob/master/BlueSessionHijacking.gif 
       
   COMMENTS:
+
+The Blue site has a Session hijacking vulnerabilty. This was one of the hardest attacks to implement as once I was logging into one site, I then had to get the session ID. To obtain the session ID, after the site URL I added "/hacktools/change_session_id.php", this allowed me to obtain the current ID from the site I was loggined in to and put the same ID into the one I was not logged into. After, being implemented I was able to see that I logged into both accounts by the same login pperson. 
 
 
 ## Green
@@ -47,6 +49,7 @@ Vulnerability #1: Enumeration Attack
       
   COMMENTS: 
   
+ The Green site had a very easy set up for a Enumeration Attack, since the URL had "id=1" it was very simple to change the ID number to 10,11 and 12 to get the inofrmation of the fired employee aswell as the new employee, whose information goes public September 1. 
    
 
 Vulnerability #2: Stored XSS Attack
@@ -59,7 +62,7 @@ Vulnerability #2: Stored XSS Attack
        
   COMMENTS:
   
-    The Blue site has an 
+  The Green site had an XSS attack vulnerability in the feedback section. It was very simple to implement a <script>alert(123)</script> that gives an alert message such as "123" or "HELLO".  
   
 ## Red
 
@@ -70,6 +73,8 @@ Vulnerability #1: IDOR Attack
       Link: https://github.com/oleksandrbi/CodePathWeek8/blob/master/RedIDOR.gif
       
   COMMENTS:
+  
+The Red site 
   
  Vulnerability #2: CSRF Attack
  
