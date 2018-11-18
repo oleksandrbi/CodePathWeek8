@@ -25,6 +25,9 @@ Vulnerability #1: SQL Injection Attack
       
   COMMENTS: 
   
+     The Blue site has an SQL injection vulnerability, I noticed that it was on the URL. To test out the vulnerablity I implemented the SLEEP command on the database. I easily just pasted it into the URL and right away the site was taking a much longer time to load up, this is the command I used: ' OR SLEEP(1) -- ' . In addition, the whole process took alot of trial and error before anything worked out for me.   
+     
+     
 Vulnerability #2: Session Hijacking Attack
 
   GIF: 
@@ -43,6 +46,8 @@ Vulnerability #1: Enumeration Attack
       Link: https://github.com/oleksandrbi/CodePathWeek8/blob/master/GreenEnumerationAttack.gif
       
   COMMENTS: 
+  
+   
 
 Vulnerability #2: Stored XSS Attack
 
@@ -53,6 +58,8 @@ Vulnerability #2: Stored XSS Attack
        Link Part 2: https://github.com/oleksandrbi/CodePathWeek8/blob/master/GreenXSSPart2.gif
        
   COMMENTS:
+  
+    The Blue site has an 
   
 ## Red
 
