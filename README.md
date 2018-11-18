@@ -49,7 +49,7 @@ Vulnerability #1: Enumeration Attack
       
   COMMENTS: 
   
- The Green site had a very easy set up for a Enumeration Attack, since the URL had "id=1" it was very simple to change the ID number to 10,11 and 12 to get the inofrmation of the fired employee aswell as the new employee, whose information goes public September 1. 
+The Green site has an easy Enumeration Attack that the devloper made a mistake on. When a user that exists in the database logins and the password is wrong, the error message will be in bold text. However, when a user that does not exits tries to log in the error message will be in plain text.   
    
 
 Vulnerability #2: Stored XSS Attack
@@ -74,8 +74,8 @@ Vulnerability #1: IDOR Attack
       
   COMMENTS:
   
-The Red site 
-  
+The Red site had a very easy set up for a IDOR Attack, since the URL had "id=1" it was very simple to change the ID number to 10,11 and 12 to get the inofrmation of the fired employee aswell as the new employee, whose information goes public September 1.
+
  Vulnerability #2: CSRF Attack
  
   GIF:
@@ -86,8 +86,9 @@ The Red site
       
   COMMENTS:
 
+The Red site had an CSRF vulnerability, this was easy to exploit when I went to another site such as the green or blue one. I then logged in with pperson and when to the list of employees, and I clicked on edit, I then inspect element the name to change the token to "test." I then changed the name of the employee to "test", I clicked save and this gave me an error. However, when I went to the red site and I also attempted to change the token to "test" and the name of the employee to "test", everything worked out. In addition, the employee from the green or blue site that I changed before was now shown as test test. 
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+For me the whole process was alot of trial and error, also having to look back into my notes what each attack is and how to test out for it. I wasted alot of time trying to create gifs as LICEcap was alwasy recording with a black screen. 
 
