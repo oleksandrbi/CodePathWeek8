@@ -21,7 +21,7 @@ Vulnerability #1: SQL Injection Attack
   
   GIF: 
   
-      [Link](https://github.com/oleksandrbi/CodePathWeek8/blob/master/BlueSQLI.gif)
+      Link: https://github.com/oleksandrbi/CodePathWeek8/blob/master/BlueSQLI.gif
       
   COMMENTS: 
   
@@ -29,7 +29,7 @@ Vulnerability #2: Session Hijacking Attack
 
   GIF: 
   
-      [Link](https://github.com/oleksandrbi/CodePathWeek8/blob/master/BlueSessionHijacking.gif)  
+      Link: https://github.com/oleksandrbi/CodePathWeek8/blob/master/BlueSessionHijacking.gif 
       
   COMMENTS:
 
@@ -40,7 +40,7 @@ Vulnerability #1: Enumeration Attack
 
   GIF: 
   
-      [Link](https://github.com/oleksandrbi/CodePathWeek8/blob/master/GreenEnumerationAttack.gif)
+      Link: https://github.com/oleksandrbi/CodePathWeek8/blob/master/GreenEnumerationAttack.gif
       
   COMMENTS: 
 
@@ -48,9 +48,9 @@ Vulnerability #2: Stored XSS Attack
 
   GIF: 
   
-       [Link Part 1](https://github.com/oleksandrbi/CodePathWeek8/blob/master/GreenXSSPART1.gif)
+       Link Part 1: https://github.com/oleksandrbi/CodePathWeek8/blob/master/GreenXSSPART1.gif
        
-       [Link Part 2](https://github.com/oleksandrbi/CodePathWeek8/blob/master/GreenXSSPart2.gif)
+       Link Part 2: https://github.com/oleksandrbi/CodePathWeek8/blob/master/GreenXSSPart2.gif
        
   COMMENTS:
   
@@ -60,7 +60,7 @@ Vulnerability #1: IDOR Attack
   
   GIF:
   
-      [Link](https://github.com/oleksandrbi/CodePathWeek8/blob/master/RedIDOR.gif)
+      Link: https://github.com/oleksandrbi/CodePathWeek8/blob/master/RedIDOR.gif
       
   COMMENTS:
   
@@ -68,9 +68,9 @@ Vulnerability #1: IDOR Attack
  
   GIF:
   
-      [Link Part 1](https://github.com/oleksandrbi/CodePathWeek8/blob/master/RedCSRFPart1.gif)
+      Link Part 1: https://github.com/oleksandrbi/CodePathWeek8/blob/master/RedCSRFPart1.gif
       
-      [Link Part 2](https://github.com/oleksandrbi/CodePathWeek8/blob/master/RedCSRFPart2.gif)
+      Link Part 2: https://github.com/oleksandrbi/CodePathWeek8/blob/master/RedCSRFPart2.gif
       
   COMMENTS:
 
